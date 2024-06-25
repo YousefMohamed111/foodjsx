@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+}
+
+.visiter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.visiter img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.celebrity {
+    padding-bottom: 50px;
+    font-family: 'Your';
+}

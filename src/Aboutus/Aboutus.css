@@ -1,0 +1,31 @@
+.n {
+    display: flex;
+}
+
+.about {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    padding-right: 240px;
+}
+
+@font-face {
+    font-family: 'YourFontt';
+    src: url('./font/Poppin-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.questions {
+    font-family: 'YourFontt';
+    font-size: 60px;
+}
+
+.ques {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.btns {
+    margin-left: 300px;
+    margin-top: 20px;
+}

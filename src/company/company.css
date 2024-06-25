@@ -1,0 +1,50 @@
+.b {
+    background-image: url('./img/business-8676559_1280.webp');
+    background-size: cover;
+}
+
+.main {
+    padding: 200px;
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imggs {
+    width: 150px;
+    height: 150px;
+}
+
+.titles {
+    font-size: 25px;
+}
+
+.taemimg {
+    border-radius: 70px;
+    height: 150px;
+    width: 150px;
+}
+
+.bb {
+    display: flex;
+    justify-content: space-around;
+}
+
+.call {
+    display: flex;
+}
+
+.title-talk {
+    font-size: 30px;
+    font-family: 'Your';
+}
+
+.talking {
+    padding-top: 190px;
+    margin-right: 170px;
+}

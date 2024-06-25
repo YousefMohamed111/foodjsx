@@ -1,0 +1,95 @@
+.containerr {
+    background: url('./img/inshoku-article-eyecatch1.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    color: #333;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.font {
+    font-family: 'Cloud', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.simple {
+    margin-bottom: 150px;
+    font-size: 50px;
+    color: white;
+}
+
+.mm {
+    display: flex;
+    margin-bottom: 100px;
+    border-radius: 40px;
+
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('./font/Milker.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.container-fulied {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mk {
+    font-family: 'YourFont';
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.img-deliver {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mm {
+    background: linear-gradient(to right, #fad400, #ff6666);
+    margin-top: 50px;
+
+}

@@ -1,0 +1,135 @@
+.signup-body {
+    background-image: url('./img/wallhaven-werowr.png');
+    background-size: cover;
+    /* يغطي الشاشة بالكامل */
+    background-repeat: no-repeat;
+    /* يمنع تكرار الخلفية */
+    background-position: center center;
+    /* يركز الخلفية في المنتصف */
+    height: 100vh;
+    /* يضبط ارتفاع الخلفية ليغطي الشاشة بالكامل */
+    width: 100vw;
+    /* يضبط عرض الخلفية ليغطي الشاشة بالكامل */
+    overflow: hidden;
+    /* يمنع التمرير */
+}
+
+.label {
+    color: white;
+    font-family: 'YourFontt';
+}
+
+.container-sign {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-signin {
+    padding: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    background-color: rgb(139, 0, 0);
+}
+
+.message-error {
+    color: red;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.iconn {
+    position: absolute;
+    margin-left: 200px;
+    top: 127px;
+}
+
+.iconnn {
+    position: absolute;
+    margin-left: 200px;
+    top: 206px;
+}
+
+.iconnnn {
+    position: absolute;
+    margin-left: 200px;
+    top: 127px;
+}
+
+.iconnnnn {
+    position: absolute;
+    margin-left: 200px;
+    top: 206px;
+}
+
+.iconnnnnn {
+    position: absolute;
+    margin-left: 200px;
+    top: 443px;
+}
+
+.iconnnnnnn {
+    position: absolute;
+    margin-left: 200px;
+    top: 522px;
+}
+
+.pill {
+    font-size: 12px;
+    font-family: "Readex Pro", sans-serif;
+    padding: 9px 14px;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: #9b721c;
+    cursor: pointer;
+}
+
+.sign {
+    color: white;
+}
+
+@media (min-width: 0px) and (max-width: 311px) {
+    .iconnnn {
+        left: 279px;
+        margin-left: 0%;
+    }
+
+    .iconnnnn {
+        left: 279px;
+        margin-left: 0%;
+    }
+}

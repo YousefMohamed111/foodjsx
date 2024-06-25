@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item-name {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.item-description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #007bff;
+}
