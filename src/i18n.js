@@ -98,11 +98,13 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 r: "How they cook food and serve us delicious meals.",
                 t: "Serving us delicious food.",
                 register: "register",
-                dont:"Are You Don't have account?"
+                dont: "Are You Don't have account?",
+                ff: "You must Order food"
             }
         },
         ar: {
             translation: {
+                ff: "يجب ان تطلب الطعام",
                 greeting: "اسم المستخدم الاول ",
                 greetin: "اسم المستخدم الثاني",
                 greeti: "الايميل",
@@ -201,11 +203,12 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 r: "وكيف يطبخون الطعام ويقدمون لنا طعامًا لذيذًا.",
                 t: "ويقدمون لنا طعامًا لذيذًا.",
                 register: "تسجيل",
-                dont:"ليس لديك حساب "
+                dont: "ليس لديك حساب "
             }
         },
         de: {
             translation: {
+                ff: "Sie müssen Essen bestellen",
                 greeting: "Dein Vorname",
                 greetin: "Dein Nachname",
                 greeti: "Deine E-Mail",
@@ -301,11 +304,12 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 r: "Wie sie Essen zubereiten und uns köstliche Mahlzeiten servieren.",
                 t: "Servieren uns köstliches Essen.",
                 register: "registrieren",
-                dont:"Sie haben kein Konto?"
+                dont: "Sie haben kein Konto?"
             }
         },
         fr: {
             translation: {
+                ff: "Vous devez commander de la nourriture",
                 comments: "belle expérience. Je recommande à tout le monde de manger dans ce restaurant. belle expérience. Je recommande à tout le monde de manger dans ce restaurant.",
                 clien: 'nos meilleurs commentaires clients',
                 greeting: "Votre prénom",
@@ -407,7 +411,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 r: "Comment ils cuisinent la nourriture et nous servent des repas délicieux.",
                 t: "Nous servant de la nourriture délicieuse.",
                 register: "s'inscrire",
-                dont:"Vous n'avez pas de compte ?"
+                dont: "Vous n'avez pas de compte ?"
 
             }
         }

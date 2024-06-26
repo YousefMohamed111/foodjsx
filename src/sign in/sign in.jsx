@@ -74,10 +74,10 @@ const SignupForm = () => {
 
     return (
         <>
-            <div className='ccc'>
+            <div className='ccc container'>
                 <Languageselectors />
-                <div className='container-sign mt-5 form-signin'>
-                    <form onSubmit={formik.handleSubmit}>
+                <div className='container-sign mt-5 form-signin row'>
+                    <form onSubmit={formik.handleSubmit} className='col-lg-12 col-sm-12 col-xl-12 col-xxl-12 col-xs-12' >
                         {error && <p className="text-danger">{error}</p>}
 
                         <div className='mb-3'>

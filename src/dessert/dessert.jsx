@@ -11,7 +11,7 @@ function Sweet() {
     const [totalPricePizza, setTotalPricePizza] = useState(0);
     const [address, setAddress] = useState("");
     const [orderSent, setOrderSent] = useState(false);
-    const [message, Setmesssage] = useState("")
+    const [message, Setmesssage] = useState("");
 
     useEffect(() => {
         const fetchData = async () => {
@@ -19,14 +19,10 @@ function Sweet() {
                 method: 'GET',
                 url: 'https://pizza-and-desserts.p.rapidapi.com/desserts',
                 headers: {
-                    'X-RapidAPI-Key': 'ddf881fae0mshe761ff8e4a2b0cbp116c40jsne983689f024f',
+                    'X-RapidAPI-Key': '5c1a219683msh637b3d851371e16p186392jsn3f7df7678a5e',
                     'X-RapidAPI-Host': 'pizza-and-desserts.p.rapidapi.com'
                 }
-                // لو  خلص عدد مرات ال request api  
-                // headers: {
-                //     'x-rapidapi-key': 'bd47444328msh75f1580f52b7bc9p1ef4aajsna79c6ca80cec',
-                //     'x-rapidapi-host': 'pizza-and-desserts.p.rapidapi.com'
-                // }
+                //8b07d925a9msh31e80e054dae041p16bafdjsn0a94e81f96de بدليها بدل من key لو خلص request
             };
             try {
                 const response = await axios.request(options);
@@ -66,13 +62,16 @@ function Sweet() {
         }
     }
 
-
     const getTotalPrice = () => {
         return totalPriceSweet + totalPricePizza;
     }
 
     const handleSendOrder = () => {
-        if (address.trim() !== "") {
+        if (address.trim() === "") {
+            Setmesssage(t("w"));
+        } else if (getTotalPrice() <= 0) {
+            Setmesssage(t("ff"));
+        } else {
             setAddress("");
             setOrderSent(true);
             setTotalPriceSweet(0);
@@ -80,16 +79,13 @@ function Sweet() {
             localStorage.removeItem('totalPricePizza');
             setItemQuantities({});
         }
-        else {
-            Setmesssage(t("w"));
-
-        }
     }
+
     return (
         <div>
             <Languageselectors />
             <h1 className='q'>{t("welcome")}</h1>
-            <h1 className='q'>{t("bestMeals")} </h1>
+            <h1 className='q'>{t("bestMeals")}</h1>
             <div className='container'>
                 <div className='row'>
                     {sweetData.map((item, index) => (

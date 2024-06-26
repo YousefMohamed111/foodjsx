@@ -35,9 +35,17 @@ const routes = createHashRouter([
     path: "L/pizza",
     element: <Pizza />
   },
+  {
+    path: "/pizza",
+    element: <Pizza />
+  },
 
   {
     path: "L/re",
+    element: <Restaurnet />
+  },
+  {
+    path: "/re",
     element: <Restaurnet />
   },
   {
@@ -45,7 +53,15 @@ const routes = createHashRouter([
     element: <Restaurnet />
   },
   {
+    path: "/pizza/re",
+    element: <Restaurnet />
+  },
+  {
     path: "L/company",
+    element: <Company />
+  },
+  {
+    path: "/company",
     element: <Company />
   },
   {
@@ -54,6 +70,14 @@ const routes = createHashRouter([
   },
   {
     path: "L/Delivery",
+    element: <Delivery />
+  },
+  {
+    path: "/product",
+    element: <Meal />
+  },
+  {
+    path: "/Delivery",
     element: <Delivery />
   },
 

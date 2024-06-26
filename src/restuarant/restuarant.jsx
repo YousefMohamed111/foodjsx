@@ -18,14 +18,10 @@ function Restaurant() {
                 method: 'GET',
                 url: 'https://pizza-and-desserts.p.rapidapi.com/pizzas',
                 headers: {
-                    'X-RapidAPI-Key': 'ddf881fae0mshe761ff8e4a2b0cbp116c40jsne983689f024f',
+                    'X-RapidAPI-Key': '5c1a219683msh637b3d851371e16p186392jsn3f7df7678a5e',
                     'X-RapidAPI-Host': 'pizza-and-desserts.p.rapidapi.com'
                 }
-                // لو  خلص عدد مرات ال request api  
-                // headers: {
-                //     'x-rapidapi-key': 'bd47444328msh75f1580f52b7bc9p1ef4aajsna79c6ca80cec',
-                //     'x-rapidapi-host': 'pizza-and-desserts.p.rapidapi.com'
-                // }
+                //8b07d925a9msh31e80e054dae041p16bafdjsn0a94e81f96de
             };
             try {
                 const response = await axios.request(options);

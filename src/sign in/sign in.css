@@ -1,17 +1,11 @@
 .signup-body {
     background-image: url('./img/wallhaven-werowr.png');
     background-size: cover;
-    /* يغطي الشاشة بالكامل */
     background-repeat: no-repeat;
-    /* يمنع تكرار الخلفية */
     background-position: center center;
-    /* يركز الخلفية في المنتصف */
     height: 100vh;
-    /* يضبط ارتفاع الخلفية ليغطي الشاشة بالكامل */
     width: 100vw;
-    /* يضبط عرض الخلفية ليغطي الشاشة بالكامل */
     overflow: hidden;
-    /* يمنع التمرير */
 }
 
 .label {
@@ -41,7 +35,6 @@ input {
     margin-bottom: 10px;
     width: 100%;
     height: 100%;
-    /* background: transparent; */
     border: none;
     outline: none;
     background: rgba(255, 255, 255, 0.1);
@@ -84,13 +77,13 @@ input {
 
 .iconnnn {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 192px;
     top: 127px;
 }
 
 .iconnnnn {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 192px;
     top: 206px;
 }
 
@@ -131,5 +124,113 @@ input {
     .iconnnnn {
         left: 279px;
         margin-left: 0%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .iconnnn {
+        top: 145px;
+    }
+
+    .iconnnnn {
+        top: 220px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .iconnnn {
+        top: 145px;
+    }
+
+    .iconnnnn {
+        top: 220px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .iconnnn {
+        top: 145px;
+    }
+
+    .iconnnnn {
+        top: 220px;
+    }
+}
+
+@media (min-width: 416px) and (max-width: 575px) {
+    .iconnnn {
+        top: 145px;
+        margin-left: 128px;
+    }
+
+    .iconnnnn {
+        top: 220px;
+        margin-left: 128px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 766px) {
+    .iconnnn {
+        top: 145px;
+    }
+
+    .iconnnnn {
+        top: 220px;
+    }
+}
+
+@media (min-width:0px) and (max-width: 339px) {
+
+    .iconnnn {
+        margin-left: 0%;
+        top: 145px;
+        left: 242px;
+    }
+
+    .iconnnnn {
+        margin-left: 0%;
+        top: 220px;
+        left: 242px;
+    }
+}
+
+@media (min-width:340px) and (max-width: 374px) {
+
+    .iconnnn {
+        margin-left: 0%;
+        top: 145px;
+        left: 265px;
+    }
+
+    .iconnnnn {
+        margin-left: 0%;
+        top: 220px;
+        left: 265px;
+    }
+}
+
+@media (min-width:375px) and (max-width: 375px) {
+
+    .iconnnn {
+        margin-left: 0%;
+        top: 145px;
+        left: 285px;
+    }
+
+    .iconnnnn {
+        margin-left: 0%;
+        top: 220px;
+        left: 285px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .iconnnn {
+        top: 145px;
+
+    }
+
+    .iconnnnn {
+        top: 220px;
     }
 }
