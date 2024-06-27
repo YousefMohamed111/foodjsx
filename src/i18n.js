@@ -7,6 +7,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
     resources: {
         en: {
             translation: {
+                errer: "YourEmail and YourPassword is not true",
                 greeting: "Your First Name",
                 greetin: "Your Last Name",
                 greeti: "Your Email",
@@ -104,6 +105,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         },
         ar: {
             translation: {
+                errer: "بريدك الإلكتروني وكلمة المرور الخاصة بك غير صحيحين",
                 ff: "يجب ان تطلب الطعام",
                 greeting: "اسم المستخدم الاول ",
                 greetin: "اسم المستخدم الثاني",
@@ -304,11 +306,13 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 r: "Wie sie Essen zubereiten und uns köstliche Mahlzeiten servieren.",
                 t: "Servieren uns köstliches Essen.",
                 register: "registrieren",
-                dont: "Sie haben kein Konto?"
+                dont: "Sie haben kein Konto?",
+                errer:"Ihre E-Mail-Adresse und Ihr Passwort stimmen nicht",
             }
         },
         fr: {
             translation: {
+                errer:"Votre email et votre mot de passe ne sont pas vrais",
                 ff: "Vous devez commander de la nourriture",
                 comments: "belle expérience. Je recommande à tout le monde de manger dans ce restaurant. belle expérience. Je recommande à tout le monde de manger dans ce restaurant.",
                 clien: 'nos meilleurs commentaires clients',

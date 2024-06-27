@@ -5,7 +5,7 @@
 .about {
     padding-top: 120px;
     padding-bottom: 200px;
-    padding-right: 240px;
+    padding-right: 204px;
 }
 
 @font-face {
@@ -28,4 +28,66 @@
 .btns {
     margin-left: 300px;
     margin-top: 20px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .about {
+        padding-top: 42px;
+        padding-bottom: 200px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about {
+        padding-top: 8px;
+        padding-bottom: 200px;
+        padding-right: 33px;
+    }
+
+    .barg {
+        left: 116px;
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about {
+        padding-top: 8px;
+        padding-bottom: 200px;
+        padding-right: 30px;
+    }
+    .o1 {
+        order: 1 !important;
+    }
+
+    .o2 {
+        order: 2 !important;
+        
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .about {
+        padding-right: 8px;
+    }
+
+    .o1 {
+        order: 1 !important;
+    }
+
+    .o2 {
+        order: 2 !important;
+
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .about {
+        padding-right: 30px;
+    }
+
+
 }

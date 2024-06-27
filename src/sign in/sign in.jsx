@@ -52,7 +52,7 @@ const SignupForm = () => {
                     navigate('/L');
                 }
             } catch (error) {
-                setError(error.message);
+                setError(t("errer"));
             }
         },
     });

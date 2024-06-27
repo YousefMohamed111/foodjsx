@@ -57,10 +57,10 @@ function Meal() {
 
         <div className="container">
             <p className="check">Check Our Meals</p>
-            <input type="text" className="form-control"  onChange={filterData} placeholder="Enter your Meal " />
+            <input type="text" className="form-control" onChange={filterData} placeholder="Enter your Meal " />
             <div className="row">
                 {search.map((item, index) => (
-                    <div key={index} className="col-lg-4 col-md-6 mb-4">
+                    <div key={index} className="col-lg-4 col-md-6 col-sm-12  col-xl-4 col-xxl-4 mb-4 ">
                         <div className="card-custom">
                             <img className="card-img-custom" src={item.image} alt="Meal" />
                             <div className="card-content-custom">
