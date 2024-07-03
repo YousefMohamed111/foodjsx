@@ -19,7 +19,7 @@ const routes = createHashRouter([
     element: <LoginForm />
   },
   {
-    path: "/",
+    path: "/login",
     element: <SignupForm />
   },
   {
@@ -86,12 +86,12 @@ const routes = createHashRouter([
     element: <Details />
   },
   {
-    path: "/L",
+    path: "/",
     element: <Layout />,
 
     children: [
       {
-        path: "/L",
+        path: "/",
         element: <Home />,
       },
 
@@ -103,3 +103,4 @@ function App() {
 }
 
 export default App
+//Your_password123.

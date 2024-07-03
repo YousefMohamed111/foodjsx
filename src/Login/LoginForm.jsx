@@ -42,7 +42,7 @@ const LoginForm = () => {
         onSubmit: async () => {
             try {
                 console.log('Signup successful');
-                navigate('/L');
+                navigate('/re');
             } catch (error) {
                 setError(error.message);
             }

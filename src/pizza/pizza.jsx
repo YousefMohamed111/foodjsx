@@ -18,7 +18,7 @@ function Pizza() {
                     </div>
                 </div>
                 <div className="second">
-                    <Link to="./re">
+                    <Link to="/login">
                         <div className="card text-bg-dark">
                             <img src={img2} className="card-img" alt="..." />
                             <img src={img1} className="card-img" alt="..." />

@@ -2,6 +2,15 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.form-control {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.easy {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
 .card-custom {
     position: relative;

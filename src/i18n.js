@@ -100,7 +100,9 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 t: "Serving us delicious food.",
                 register: "register",
                 dont: "Are You Don't have account?",
-                ff: "You must Order food"
+                ff: "You must Order food",
+                Youtube: "Youtube"
+
             }
         },
         ar: {
@@ -205,7 +207,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 r: "وكيف يطبخون الطعام ويقدمون لنا طعامًا لذيذًا.",
                 t: "ويقدمون لنا طعامًا لذيذًا.",
                 register: "تسجيل",
-                dont: "ليس لديك حساب "
+                dont: "ليس لديك حساب ",
+                Youtube: "يوتيوب"
             }
         },
         de: {
@@ -307,12 +310,13 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 t: "Servieren uns köstliches Essen.",
                 register: "registrieren",
                 dont: "Sie haben kein Konto?",
-                errer:"Ihre E-Mail-Adresse und Ihr Passwort stimmen nicht",
+                errer: "Ihre E-Mail-Adresse und Ihr Passwort stimmen nicht",
+                Youtube: "Youtube"
             }
         },
         fr: {
             translation: {
-                errer:"Votre email et votre mot de passe ne sont pas vrais",
+                errer: "Votre email et votre mot de passe ne sont pas vrais",
                 ff: "Vous devez commander de la nourriture",
                 comments: "belle expérience. Je recommande à tout le monde de manger dans ce restaurant. belle expérience. Je recommande à tout le monde de manger dans ce restaurant.",
                 clien: 'nos meilleurs commentaires clients',
@@ -415,7 +419,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 r: "Comment ils cuisinent la nourriture et nous servent des repas délicieux.",
                 t: "Nous servant de la nourriture délicieuse.",
                 register: "s'inscrire",
-                dont: "Vous n'avez pas de compte ?"
+                dont: "Vous n'avez pas de compte ?",
+                Youtube: "Youtube"
 
             }
         }

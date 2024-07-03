@@ -13,10 +13,10 @@ function Details() {
             const options = {
                 method: 'GET',
                 headers: {
-                    'x-rapidapi-key': '5c1a219683msh637b3d851371e16p186392jsn3f7df7678a5e',
+                    'x-rapidapi-key': 'a2e84088f0mshcf2778705172b26p1de1b8jsne28bfcc24188',
                     'x-rapidapi-host': 'chinese-food-db.p.rapidapi.com'
                 }
-                //8b07d925a9msh31e80e054dae041p16bafdjsn0a94e81f96de بدليها بدل من key لو خلص request
+                //30e381ae6cmsh2259c0719935d43p1f8075jsnba55ed55f43f
             };
 
             try {
@@ -54,6 +54,7 @@ function Details() {
                             <h5 className="card-title"><span>Agood choose:</span>{item.title}</h5>
                             <p className="card-text detail"><span>Description:</span>{item.description}</p>
                             <p className="card-text detail"><span>ingredients:</span>{item.ingredients}</p>
+                            <p className="card-text detail"><span>ingredients:</span>{item.difficulty}</p>
                             <br />
                             <ol className="list-unstyled">
                                 {item.method.map(step => (

@@ -11,7 +11,7 @@ function Sweet() {
     const [totalPricePizza, setTotalPricePizza] = useState(0);
     const [address, setAddress] = useState("");
     const [orderSent, setOrderSent] = useState(false);
-    const [message, Setmesssage] = useState("");
+    const [error, setError] = useState("");
 
     useEffect(() => {
         const fetchData = async () => {
@@ -19,11 +19,10 @@ function Sweet() {
                 method: 'GET',
                 url: 'https://pizza-and-desserts.p.rapidapi.com/desserts',
                 headers: {
-                    'X-RapidAPI-Key': '5c1a219683msh637b3d851371e16p186392jsn3f7df7678a5e',
+                    'X-RapidAPI-Key': 'a2e84088f0mshcf2778705172b26p1de1b8jsne28bfcc24188',
                     'X-RapidAPI-Host': 'pizza-and-desserts.p.rapidapi.com'
                 }
-                //8b07d925a9msh31e80e054dae041p16bafdjsn0a94e81f96de بدليها بدل من key لو خلص request
-            };
+            };//30e381ae6cmsh2259c0719935d43p1f8075jsnba55ed55f43f
             try {
                 const response = await axios.request(options);
                 setSweetData(response.data);
@@ -68,9 +67,9 @@ function Sweet() {
 
     const handleSendOrder = () => {
         if (address.trim() === "") {
-            Setmesssage(t("w"));
+            setError(t("error.emptyAddress"));
         } else if (getTotalPrice() <= 0) {
-            Setmesssage(t("ff"));
+            setError(t("error.zeroTotalPrice"));
         } else {
             setAddress("");
             setOrderSent(true);
@@ -78,6 +77,7 @@ function Sweet() {
             setTotalPricePizza(0);
             localStorage.removeItem('totalPricePizza');
             setItemQuantities({});
+            setError("");
         }
     }
 
@@ -108,9 +108,15 @@ function Sweet() {
             <p>{t("totalPriceBoth")} {getTotalPrice()}</p>
             {!orderSent && (
                 <div>
-                    {message && <p className="error-message">{message}</p>}
-                    <input type="text" placeholder={t("enterAddress")} value={address} onChange={(e) => setAddress(e.target.value)} />
-                    <button onClick={handleSendOrder}>{t("sendOrder")}</button>
+                    {error && <p className="error-message">{error}</p>}
+                    <input
+                        type="text"
+                        placeholder={t("enterAddress")}
+                        value={address}
+                        onChange={(e) => setAddress(e.target.value)}
+                        disabled={orderSent}
+                    />
+                    <button onClick={handleSendOrder} disabled={orderSent}>{t("sendOrder")}</button>
                 </div>
             )}
             {orderSent && <p>{t("orderSent")}</p>}

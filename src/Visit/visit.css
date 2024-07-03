@@ -1,4 +1,4 @@
-.container {
+/* .container {
     text-align: center;
 }
 
@@ -19,4 +19,35 @@
 .celebrity {
     padding-bottom: 50px;
     font-family: 'Your';
+} */
+.celebrity {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.visiter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .celebrity {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .celebrity {
+        font-size: 2rem;
+    }
 }

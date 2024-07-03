@@ -49,7 +49,7 @@ const SignupForm = () => {
                     console.log('Signup successful');
                     const token = response.data.token;
                     localStorage.setItem('token', token);
-                    navigate('/L');
+                    navigate('/re');
                 }
             } catch (error) {
                 setError(t("errer"));
@@ -112,7 +112,7 @@ const SignupForm = () => {
                         </div>
                         <span>
                             <button type="submit" className='btn btn-primary pill'>{t("register")}</button>
-                            <Link to="./LL"><p className='sign'>{t("dont")}</p></Link>
+                            <Link to="/LL"><p className='sign'>{t("dont")}</p></Link>
                         </span>
                     </form >
                 </div>

@@ -38,7 +38,7 @@ function Comment() {
             <div className='container cards'>
                 <div className='row'>
                     {array.map((item, index) => (
-                        <div className="card mb-3 col-12 col-lg-3" key={index} style={{ width: '18rem' }}>
+                        <div className="card mb-3 col-12 col-lg-3 " key={index} style={{ width: '18rem' }}>
                             <div className="card-body">
                                 <p className="card-text">{item.comment}</p>
                                 <div style={{ display: 'flex', alignItems: 'center' }}>
