@@ -1,4 +1,5 @@
-.b {
+.container-fluid.b {
+    padding: 20px;
     background-image: url('./img/business-8676559_1280.webp');
     background-size: cover;
 }
@@ -12,31 +13,25 @@
 
 .images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .imggs {
     width: 150px;
     height: 150px;
+    margin-left: 100px;
 }
 
 .titles {
+    text-align: center;
     font-size: 25px;
-}
-
-.taemimg {
-    border-radius: 70px;
-    height: 150px;
-    width: 150px;
-}
-
-.bb {
-    display: flex;
-    justify-content: space-around;
+    margin-top: 10px;
 }
 
 .call {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .title-talk {
@@ -46,5 +41,28 @@
 
 .talking {
     padding-top: 190px;
-    margin-right: 170px;
+}
+
+.taemimg {
+    height: 150px;
+    width: 150px;
+    border-radius: 70px;
+    margin-left: 50px;
+}
+
+.nameteam {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    .main {
+        padding: 0px;
+    }
 }

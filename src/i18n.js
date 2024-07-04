@@ -7,6 +7,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
     resources: {
         en: {
             translation: {
+                
                 errer: "YourEmail and YourPassword is not true",
                 greeting: "Your First Name",
                 greetin: "Your Last Name",

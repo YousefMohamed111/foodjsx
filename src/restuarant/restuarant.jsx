@@ -18,7 +18,7 @@ function Restaurant() {
                 method: 'GET',
                 url: 'https://pizza-and-desserts.p.rapidapi.com/pizzas',
                 headers: {
-                    'X-RapidAPI-Key': 'a2e84088f0mshcf2778705172b26p1de1b8jsne28bfcc24188',
+                    'X-RapidAPI-Key': 'e4b3b07679msh41d3cfaeb63c98bp1eb69fjsna07d148ce5f6',
                     'X-RapidAPI-Host': 'pizza-and-desserts.p.rapidapi.com'
                 }
                 //8b07d925a9msh31e80e054dae041p16bafdjsn0a94e81f96de

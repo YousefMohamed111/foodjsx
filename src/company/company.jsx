@@ -59,35 +59,39 @@ function Company() {
                     <p>{t("company_description")}</p>
                 </div>
             </div>
-            <div>
+            <div className="container">
                 <h1>{t("how_we_did_this")}</h1>
-                <div className="images">
+                <div className="row images">
                     {array.map((item, index) => (
-                        <div key={index}>
-                            <img src={item.img} alt={item.title} className='imggs' />
+                        <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                            <img src={item.img} alt={item.title} className='img-fluid imggs' />
                             <p className='titles'>{item.title}</p>
                         </div>
                     ))}
                 </div>
             </div>
             <div className='container call'>
-                <div className='talking'>
-                    <p className='title-talk'>{t("call_us_1")}</p>
-                    <p className='title-talk'>{t("call_us_2")}</p>
-                    <p className='title-talk'>{t("call_us_3")}</p>
-                </div>
-                <div>
-                    <img src={img} />
+                <div className='row align-items-center'>
+                    <div className='col-12 col-md-6 talking'>
+                        <p className='title-talk'>{t("call_us_1")}</p>
+                        <p className='title-talk'>{t("call_us_2")}</p>
+                        <p className='title-talk'>{t("call_us_3")}</p>
+                    </div>
+                    <div className='col-12 col-md-6'>
+                        <img src={img} alt="Call Us" className='img-fluid' />
+                    </div>
                 </div>
             </div>
-            <h1>{t("our_team")}</h1>
-            <div className='container-fulied bb'>
-                {team.map((items, index) => (
-                    <div key={index}>
-                        <img src={items.img} className='taemimg' />
-                        <p className='nameteam'>{items.Name}</p>
-                    </div>
-                ))}
+            <div className="container">
+                <h1>{t("our_team")}</h1>
+                <div className='row'>
+                    {team.map((items, index) => (
+                        <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <img src={items.img} className='taemimg img-fluid' alt={items.Name} />
+                            <p className='nameteam'>{items.Name}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
             <End />
         </>

@@ -71,13 +71,13 @@ function NavBar() {
                                 <div className="mt-6 flow-root">
                                     <div className="-my-6 divide-y divide-gray-500/10">
                                         <div className="space-y-2 py-6">
-                                            <Link to="/product" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{t('Product')}</Link>
-                                            <Link to="/features" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{t('Features')}</Link>
-                                            <Link to="/marketplace" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{t('Marketplace')}</Link>
-                                            <Link to="/company" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{t('Company')}</Link>
+                                            <Link to="/product" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" style={{ color: 'white' }}>{t('Product')}</Link>
+                                            <Link to="/features" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" style={{ color: 'white' }}>{t('Features')}</Link>
+                                            <Link to="/marketplace" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" style={{ color: 'white' }}>{t('Marketplace')}</Link>
+                                            <Link to="/company" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" style={{ color: 'white' }}>{t('Company')}</Link>
                                         </div>
                                         <div className="py-6">
-                                            <Link to="https://www.youtube.com/@TasteShow" target="_blank" rel="noopener noreferrer" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                            <Link to="https://www.youtube.com/@TasteShow" target="_blank" rel="noopener noreferrer" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" >
                                                 {t('Youtube:')}
                                             </Link>
                                         </div>

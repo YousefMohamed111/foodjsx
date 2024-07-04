@@ -14,7 +14,7 @@ function Meal() {
             const options = {
                 method: 'GET',
                 headers: {
-                    'x-rapidapi-key': 'a2e84088f0mshcf2778705172b26p1de1b8jsne28bfcc24188',
+                    'x-rapidapi-key': 'e4b3b07679msh41d3cfaeb63c98bp1eb69fjsna07d148ce5f6',
                     'x-rapidapi-host': 'chinese-food-db.p.rapidapi.com'
                 }
             };

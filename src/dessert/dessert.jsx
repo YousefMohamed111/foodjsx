@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import { useTranslation } from 'react-i18next';
 import Languageselectors from '../components/language-selectors';
-
+import'./dessert.css'
 function Sweet() {
     const { t } = useTranslation();
     const [sweetData, setSweetData] = useState([]);
@@ -19,7 +19,7 @@ function Sweet() {
                 method: 'GET',
                 url: 'https://pizza-and-desserts.p.rapidapi.com/desserts',
                 headers: {
-                    'X-RapidAPI-Key': 'a2e84088f0mshcf2778705172b26p1de1b8jsne28bfcc24188',
+                    'X-RapidAPI-Key': 'e4b3b07679msh41d3cfaeb63c98bp1eb69fjsna07d148ce5f6',
                     'X-RapidAPI-Host': 'pizza-and-desserts.p.rapidapi.com'
                 }
             };//30e381ae6cmsh2259c0719935d43p1f8075jsnba55ed55f43f
@@ -67,9 +67,9 @@ function Sweet() {
 
     const handleSendOrder = () => {
         if (address.trim() === "") {
-            setError(t("error.emptyAddress"));
+            setError(t("enterAddress"));
         } else if (getTotalPrice() <= 0) {
-            setError(t("error.zeroTotalPrice"));
+            setError(t("ff"));
         } else {
             setAddress("");
             setOrderSent(true);
@@ -110,6 +110,7 @@ function Sweet() {
                 <div>
                     {error && <p className="error-message">{error}</p>}
                     <input
+                        className="address"
                         type="text"
                         placeholder={t("enterAddress")}
                         value={address}
