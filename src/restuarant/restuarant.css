@@ -1,9 +1,9 @@
-.container {
+/* .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-}
+} */
 
 .row {
     display: flex;
@@ -11,7 +11,7 @@
     justify-content: space-around;
 }
 
-.item {
+/* .item {
     width: 250px;
     margin: 20px;
     padding: 10px;
@@ -40,4 +40,96 @@
     font-weight: bold;
     margin: 10px 0;
     color: #007bff;
+} */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1.q {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.k {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+.item-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.item-name {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #ff6347;
+}
+
+.item-description {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #666;
+}
+
+.item-price {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #28a745;
+}
+
+.btn {
+    margin: 5px;
+    font-size: 1.2em;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.language-selectors {
+    text-align: center;
+    margin: 20px 0;
 }

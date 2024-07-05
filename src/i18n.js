@@ -7,7 +7,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
     resources: {
         en: {
             translation: {
-                
+                knows: "get to know us",
                 errer: "YourEmail and YourPassword is not true",
                 greeting: "Your First Name",
                 greetin: "Your Last Name",
@@ -102,12 +102,15 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 register: "register",
                 dont: "Are You Don't have account?",
                 ff: "You must Order food",
-                Youtube: "Youtube"
-
+                Youtube: "Youtube",
+                GetStarted: "Get Started",
+                check:"Check Our Meals"
             }
         },
         ar: {
             translation: {
+                check:"تفحص وجباتنا",
+                knows: "تعرف علينا",
                 errer: "بريدك الإلكتروني وكلمة المرور الخاصة بك غير صحيحين",
                 ff: "يجب ان تطلب الطعام",
                 greeting: "اسم المستخدم الاول ",
@@ -209,11 +212,14 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 t: "ويقدمون لنا طعامًا لذيذًا.",
                 register: "تسجيل",
                 dont: "ليس لديك حساب ",
-                Youtube: "يوتيوب"
+                Youtube: "يوتيوب",
+                GetStarted: "البدء"
             }
         },
         de: {
             translation: {
+                check:"Schauen Sie sich unsere Mahlzeiten an",
+                knows: "Lernen Sie uns kennen",
                 ff: "Sie müssen Essen bestellen",
                 greeting: "Dein Vorname",
                 greetin: "Dein Nachname",
@@ -312,11 +318,14 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 register: "registrieren",
                 dont: "Sie haben kein Konto?",
                 errer: "Ihre E-Mail-Adresse und Ihr Passwort stimmen nicht",
-                Youtube: "Youtube"
+                Youtube: "Youtube",
+                GetStarted:"Loslegen"
             }
         },
         fr: {
             translation: {
+                check:"Consultez nos repas",
+                knows: "apprendre a nous connaitre",
                 errer: "Votre email et votre mot de passe ne sont pas vrais",
                 ff: "Vous devez commander de la nourriture",
                 comments: "belle expérience. Je recommande à tout le monde de manger dans ce restaurant. belle expérience. Je recommande à tout le monde de manger dans ce restaurant.",
@@ -421,7 +430,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 t: "Nous servant de la nourriture délicieuse.",
                 register: "s'inscrire",
                 dont: "Vous n'avez pas de compte ?",
-                Youtube: "Youtube"
+                Youtube: "Youtube",
+                GetStarted:"Commencer"
 
             }
         }

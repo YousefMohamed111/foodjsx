@@ -13,10 +13,10 @@ function Details() {
             const options = {
                 method: 'GET',
                 headers: {
-                    'x-rapidapi-key': 'e4b3b07679msh41d3cfaeb63c98bp1eb69fjsna07d148ce5f6',
+                    'x-rapidapi-key': '645790372fmsh30212a493134df3p12fa90jsna1e061cdf3e8',
                     'x-rapidapi-host': 'chinese-food-db.p.rapidapi.com'
                 }
-                //30e381ae6cmsh2259c0719935d43p1f8075jsnba55ed55f43f
+            //a467078698mshed7b3788870b23cp14b08ejsn1bc46f0d5953 
             };
 
             try {

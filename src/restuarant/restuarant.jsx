@@ -18,9 +18,10 @@ function Restaurant() {
                 method: 'GET',
                 url: 'https://pizza-and-desserts.p.rapidapi.com/pizzas',
                 headers: {
-                    'X-RapidAPI-Key': 'e4b3b07679msh41d3cfaeb63c98bp1eb69fjsna07d148ce5f6',
+                    'X-RapidAPI-Key': '645790372fmsh30212a493134df3p12fa90jsna1e061cdf3e8',
                     'X-RapidAPI-Host': 'pizza-and-desserts.p.rapidapi.com'
                 }
+                //a467078698mshed7b3788870b23cp14b08ejsn1bc46f0d5953
                 //8b07d925a9msh31e80e054dae041p16bafdjsn0a94e81f96de
             };
             try {
@@ -61,7 +62,7 @@ function Restaurant() {
             <Languageselectors />
             <h1 className='q'>{t("welcome")}</h1>
             <h1 className='q'>{t("bestMeals")} </h1>
-            <div className='container'>
+            <div className='container k'>
                 <div className='row'>
                     {pizzaData.map((item, index) => (
                         <div className='item' key={index}>

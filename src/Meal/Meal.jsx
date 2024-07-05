@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './Meal.css';
-
+import { useTranslation } from 'react-i18next';
 function Meal() {
+    const { t } = useTranslation();
     const [data, setData] = useState([]);
     const [search, setSearch] = useState([]);
     const [error, setError] = useState(null);
@@ -14,10 +15,11 @@ function Meal() {
             const options = {
                 method: 'GET',
                 headers: {
-                    'x-rapidapi-key': 'e4b3b07679msh41d3cfaeb63c98bp1eb69fjsna07d148ce5f6',
+                    'x-rapidapi-key': '645790372fmsh30212a493134df3p12fa90jsna1e061cdf3e8',
                     'x-rapidapi-host': 'chinese-food-db.p.rapidapi.com'
                 }
             };
+            //a467078698mshed7b3788870b23cp14b08ejsn1bc46f0d5953
 
             try {
                 const response = await fetch(url, options);
@@ -63,7 +65,7 @@ function Meal() {
 
     return (
         <div className="container">
-            <p className="check">Check Our Meals</p>
+            <p className="check">{t("check")}</p>
             <input type="text" className="form-control" onChange={filterData} placeholder="Enter your Meal " />
             <button className="btn btn-warning easy" onClick={filterEasy}>Easy</button>
             <button className="btn btn-warning easy" onClick={filterMeadium}>Medium</button>

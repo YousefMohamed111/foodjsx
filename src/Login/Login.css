@@ -1,4 +1,4 @@
-.icon1 {
+/* .icon1 {
     position: absolute;
     margin-left: 200px;
     top: 127px;
@@ -32,4 +32,13 @@
     position: absolute;
     margin-left: 200px;
     top: 503px;
+} */
+.signup-bodyy {
+    background: url('./wallhaven-werowr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* height: 00vh;
+    width: 100vw; */
+    /* overflow: hidden; */
 }
